@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:nocu/src/core/constants/data.dart';
-import 'package:nocu/src/ui/pages/homePage.dart';
+import 'package:nocu/src/ui/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
