@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
 import 'package:nocu/src/core/controllers/theme_controller.dart';
+import 'package:nocu/src/core/models/note.dart';
 
 GlobalKey<ScaffoldState> homePageKey = GlobalKey<ScaffoldState>();
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+  HomePage({Key? key}) : super(key: key);
   static const homePageRoute = "home_page";
 
   @override
