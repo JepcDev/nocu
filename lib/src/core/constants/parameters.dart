@@ -10,17 +10,7 @@ enum TypeNote {
   TextImageNetwork
 }
 
-enum StateNote {
-  Visible,
-  Archive,
-  Delete,
-}
+enum StateNote { Visible, Archive, Delete }
+enum StateTask { Done, Review, PastDate, Create }
 
-enum StateTask {
-  Done,
-  Review,
-  PastDate,
-  Create,
-}
-
-
+enum StatusNetwork { Connected, NoInternet, Exception }
