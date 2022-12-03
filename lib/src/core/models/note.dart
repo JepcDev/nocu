@@ -1,3 +1,6 @@
+
+import '../constants/parameters.dart';
+
 class Note {
   String? title;
   String? date;
@@ -5,15 +8,20 @@ class Note {
   bool private;
   // Los distintos timpos de enlaces de la app
   List<String>? urls;
-  String? img;
+  String? image;
+  TypeNote type;
+  StateNote state;
+
 
   Note({
     this.title,
     this.date,
     this.description,
     this.private = false,
-    this.img,
+    this.image,
     this.urls,
+    this.type =TypeNote.Text,
+    this.state = StateNote.Visible,
   });
 }
 
