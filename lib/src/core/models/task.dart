@@ -13,6 +13,6 @@ class Task {
     this.date,
     this.description,
     this.urls,
-    this.state = StateTask.Create,
+    this.state = StateTask.create,
   });
 }

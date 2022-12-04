@@ -1,16 +1,16 @@
 // parametros seran de tipo enum que podemos usarlo como cualquier tipo de estado para nuestros modelos
 
 enum TypeNote {
-  Text,
-  Image,
-  Network,
-  TextImage,
-  TextNetWork,
-  ImageNetwork,
-  TextImageNetwork
+  text,
+  image,
+  network,
+  textImage,
+  textNetWork,
+  imageNetwork,
+  textImageNetwork,
 }
 
-enum StateNote { Visible, Archive, Delete }
-enum StateTask { Done, Review, PastDate, Create }
+enum StateNote { visible, archive, delete }
+enum StateTask { done, review, pastDate, create }
 
-enum StatusNetwork { Connected, NoInternet, Exception }
+enum StatusNetwork { connected, noInternet, exception }

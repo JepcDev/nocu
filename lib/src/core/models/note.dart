@@ -20,8 +20,8 @@ class Note {
     this.private = false,
     this.image,
     this.urls,
-    this.type =TypeNote.Text,
-    this.state = StateNote.Visible,
+    this.type =TypeNote.text,
+    this.state = StateNote.visible,
   });
 }
 
