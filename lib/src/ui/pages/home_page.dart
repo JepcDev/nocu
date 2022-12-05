@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'package:nocu/src/core/controllers/theme_controller.dart';
+import 'package:nocu/src/ui/widgets/buttons/card_button.dart';
+import 'package:nocu/src/ui/widgets/buttons/simple_buttons.dart';
 // import 'package:nocu/src/core/models/note.dart';
 // import 'package:url_launcher/url_launcher.dart';
 import 'package:url_launcher/url_launcher_string.dart';
@@ -44,6 +46,11 @@ class HomePage extends StatelessWidget {
                         }
                       },
                       child: Text("Url")),
+                  MediumButton(
+                    title: "Bottoon nuevo",
+                    onTap: (){},
+                  ),
+                  CardButton(title: "PDF", icon: Icons.book,)
                 ],
               ));
         });
